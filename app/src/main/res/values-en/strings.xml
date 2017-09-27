@@ -12,4 +12,9 @@
     <string name="mensaje_Exitoso">Cellphone successfully saved!</string>
     <string name="precio">Price</string>
     <string name="ram">Ram</string>
+    <string name="mostrarReporte">Show report</string>
+    <string name="reporte1">Report 1</string>
+    <string name="reporte2">Report 2</string>
+    <string name="reporte3">Report 3</string>
+    <string name="reportes">REPORTS</string>
 </resources>
