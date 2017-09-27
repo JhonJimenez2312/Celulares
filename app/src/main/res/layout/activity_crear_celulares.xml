@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/precio"
-        android:inputType="textPersonName" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/txtRam"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/ram"
-        android:inputType="textPersonName" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/txtSO"
@@ -70,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/limpiar" />
 
     </LinearLayout>

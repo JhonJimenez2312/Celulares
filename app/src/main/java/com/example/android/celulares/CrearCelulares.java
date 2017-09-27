@@ -39,11 +39,77 @@ public class CrearCelulares  extends AppCompatActivity {
         pre = precio.getText().toString();
         ra = ram.getText().toString();
         So  = SO.getText().toString();
+        if(validar()) {
 
-        Celular c = new Celular(marc,col,pre,ra,So);
-        c.guardar();
-        Toast.makeText(this,resources.getString(R.string.mensaje_Exitoso),Toast.LENGTH_SHORT).show();
+            Celular c = new Celular(marc, col, pre, ra, So);
+            c.guardar();
+            Toast.makeText(this, resources.getString(R.string.mensaje_Exitoso), Toast.LENGTH_SHORT).show();
+        }
     }
+
+    public void limpiar(View view){
+        marca.setText("");
+        color.setText("");
+        precio.setText("");
+        ram.setText("");
+        SO.setText("");
+        marca.requestFocus();
+
+    }
+
+    public boolean validar(){
+        marca = (EditText)findViewById(R.id.txtMarca);
+        String x =marca.getText().toString();
+
+        if(x.isEmpty()||marca.getText().toString().trim().isEmpty()){
+            marca.setError(resources.getString(R.string.mensaje_error_uno));
+            marca.setText("");
+            marca.requestFocus();
+            return false;
+        }
+        color = (EditText)findViewById(R.id.txtColor);
+        x = color .getText().toString();
+
+        if(x.isEmpty()||color .getText().toString().trim().isEmpty()){
+            color .setError(resources.getString(R.string.mensaje_error_uno));
+            color .setText("");
+            color .requestFocus();
+            return false;
+        }
+
+        precio = (EditText)findViewById(R.id.txtPrecio);
+        x = precio .getText().toString();
+
+        if(x.isEmpty()||precio.getText().toString().trim().isEmpty()){
+            precio.setError(resources.getString(R.string.mensaje_error_uno));
+            precio.setText("");
+            precio.requestFocus();
+            return false;
+        }
+
+        ram = (EditText)findViewById(R.id.txtRam);
+        x = ram.getText().toString();
+
+        if(x.isEmpty()||ram.getText().toString().trim().isEmpty()){
+            ram.setError(resources.getString(R.string.mensaje_error_uno));
+            ram.setText("");
+            ram.requestFocus();
+            return false;
+        }
+        SO = (EditText)findViewById(R.id.txtSO);
+        x =   SO.getText().toString();
+
+        if(x.isEmpty()||  SO.getText().toString().trim().isEmpty()){
+            SO.setError(resources.getString(R.string.mensaje_error_uno));
+            SO.setText("");
+            SO.requestFocus();
+            return false;
+        }
+
+
+        return true;
+    }
+
 
 
 }

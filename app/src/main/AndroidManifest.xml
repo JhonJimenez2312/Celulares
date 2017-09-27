@@ -22,6 +22,7 @@
         <activity android:name=".ReporteUno"></activity>
         <activity android:name=".ReporteDos"></activity>
         <activity android:name=".ReporteTres"></activity>
+        <activity android:name=".ReporteCuatro"></activity>
     </application>
 
 </manifest>

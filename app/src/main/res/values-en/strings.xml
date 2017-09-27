@@ -11,10 +11,13 @@
     <string name="marca">Brand</string>
     <string name="mensaje_Exitoso">Cellphone successfully saved!</string>
     <string name="precio">Price</string>
-    <string name="ram">Ram</string>
+    <string name="ram">Ram (Gb)</string>
     <string name="mostrarReporte">Show report</string>
-    <string name="reporte1">Report 1</string>
-    <string name="reporte2">Report 2</string>
-    <string name="reporte3">Report 3</string>
+    <string name="reporte1">Report 1 (Samsung,black,android)</string>
+    <string name="reporte2">Report 2 (Apple,black)</string>
+    <string name="reporte3">Report 3 (Nokia average)</string>
     <string name="reportes">REPORTS</string>
+    <string name="numero">N°</string>
+    <string name="reporte4">Report 4 (All)</string>
+    <string name="mensaje_error_uno">you entered an invalid value</string>
 </resources>

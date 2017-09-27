@@ -24,7 +24,7 @@ public class ReporteDos extends AppCompatActivity {
         setContentView(R.layout.activity_listar_celulares);
         tabla = (TableLayout)findViewById(R.id.Tabla);
         celulares = Datos.Obtener();
-
+        int contador=0;
         for (int i = 0; i <celulares.size() ; i++) {
             TableRow fila = new TableRow(this);
             TextView c1 = new TextView(this);
@@ -35,11 +35,12 @@ public class ReporteDos extends AppCompatActivity {
             TextView c6 = new TextView(this);
 
 
-            c1.setText(""+(i+1));
+
+            // c1.setText(""+(i+1));
             c2.setText(celulares.get(i).getMarca());
-            c3.setText(celulares.get(i).getPrecio());
-            c4.setText(celulares.get(i).getRam());
-            c5.setText(celulares.get(i).getColor());
+            c3.setText(celulares.get(i).getColor());
+            c4.setText(celulares.get(i).getPrecio());
+            c5.setText(celulares.get(i).getRam());
             c6.setText(celulares.get(i).getSO());
 
             String marca,color,precio,ram,SO;
@@ -52,6 +53,8 @@ public class ReporteDos extends AppCompatActivity {
             //validacion de condiciones
             if(marca.trim().equalsIgnoreCase("apple")
                     && (color.trim().equalsIgnoreCase("negro")||color.trim().equalsIgnoreCase("black"))) {
+                contador++;
+                c1.setText(""+contador);
 
                 fila.addView(c1);
                 fila.addView(c2);

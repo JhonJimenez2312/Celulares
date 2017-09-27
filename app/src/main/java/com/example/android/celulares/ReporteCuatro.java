@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Created by android on 26/09/2017.
  */
 
-public class ReporteUno extends AppCompatActivity {
+public class ReporteCuatro extends AppCompatActivity {
          /*Mostrar el precio y capacidad de Ram de los celulares marca
         samsung, negros con sistema operativo Android registrados.*/
 
@@ -35,7 +35,7 @@ public class ReporteUno extends AppCompatActivity {
             TextView c6 = new TextView(this);
 
 
-           // c1.setText(""+(i+1));
+            // c1.setText(""+(i+1));
             c2.setText(celulares.get(i).getMarca());
             c3.setText(celulares.get(i).getColor());
             c4.setText(celulares.get(i).getPrecio());
@@ -50,9 +50,7 @@ public class ReporteUno extends AppCompatActivity {
             SO = celulares.get(i).getSO();
 
             //validacion de condiciones
-            if(marca.trim().equalsIgnoreCase("samsung")
-                    && (color.trim().equalsIgnoreCase("negro")||color.trim().equalsIgnoreCase("black"))
-                    && SO.trim().equalsIgnoreCase("android")) {
+
                 contador++;
                 c1.setText(""+contador);
 
@@ -62,7 +60,7 @@ public class ReporteUno extends AppCompatActivity {
                 fila.addView(c4);
                 fila.addView(c5);
                 fila.addView(c6);
-            }
+
             tabla.addView(fila);
 
 

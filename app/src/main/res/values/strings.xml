@@ -2,9 +2,10 @@
     <string name="app_name">Celulares</string>
     <string name="agregar">AGREGAR</string>
     <string name="marca">Marca</string>
+    <string name="numero">N°</string>
     <string name="color">Color</string>
     <string name="precio">Precio</string>
-    <string name="ram">Ram</string>
+    <string name="ram">Ram (Gb)</string>
     <string name="SO">Sistema operativo</string>
     <string name="guardar">Guardar</string>
     <string name="limpiar">Limpiar</string>
@@ -16,13 +17,16 @@
     </array>
     <string name="mensaje_Exitoso">Celular guardado exitosamente!</string>
     <string name="reportes">REPORTES</string>
-    <string name="reporte1">Reporte 1</string>
-    <string name="reporte2">Reporte 2</string>
-    <string name="reporte3">Reporte 3</string>
+    <string name="reporte1">Reporte 1 (Samsung,negro,android)</string>
+    <string name="reporte2">Reporte 2 (Apple,negro)</string>
+    <string name="reporte3">Reporte 3 (Promedio Nokia)</string>
+    <string name="reporte4">Reporte 4 (todos)</string>
     <string name="mostrarReporte">Mostrar reporte</string>
     <string-array name="reportes">
         <item>@string/reporte1</item>
         <item>@string/reporte2</item>
         <item>@string/reporte3</item>
+        <item>@string/reporte4</item>
     </string-array>
+    <string name="mensaje_error_uno">Ingresó un valor invalido.</string>
 </resources>

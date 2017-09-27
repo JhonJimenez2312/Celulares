@@ -52,6 +52,10 @@ public class Reportes extends AppCompatActivity {
                 in= new Intent(Reportes.this,ReporteTres.class);
                 startActivity(in);
                 break;
+            case 3:
+                in= new Intent(Reportes.this,ReporteCuatro.class);
+                startActivity(in);
+                break;
         }
 
     }
