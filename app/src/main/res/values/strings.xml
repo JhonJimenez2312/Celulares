@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="ram">Ram</string>
+    <string name="SO">Sistema operativo</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="crear">Crear Celulares</string>
+    <string name="listar">Listar Celulares</string>
+    <array name="Opciones">
+        <item>@string/crear</item>
+        <item>@string/listar</item>
+    </array>
+    <string name="mensaje_Exitoso">Celular guardado exitosamente!</string>
+    <string name="reportes">REPORTES</string>
+    <string name="reporte1">Reporte 1</string>
+    <string name="reporte2">Reporte 2</string>
+    <string name="reporte3">Reporte 3</string>
+    <string-array name="reportes">
+        <item>@string/reporte1</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte3</item>
+    </string-array>
+</resources>

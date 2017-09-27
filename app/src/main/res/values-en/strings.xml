@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cellphones</string>
+    <string name="SO">Operative system</string>
+    <string name="agregar">ADD</string>
+    <string name="color">Color</string>
+    <string name="crear">Add Cellphones</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="listar">List of Cellphones</string>
+    <string name="marca">Brand</string>
+    <string name="mensaje_Exitoso">Cellphone successfully saved!</string>
+    <string name="precio">Price</string>
+    <string name="ram">Ram</string>
+</resources>
