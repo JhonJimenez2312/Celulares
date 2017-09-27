@@ -19,6 +19,7 @@
     <string name="reporte1">Reporte 1</string>
     <string name="reporte2">Reporte 2</string>
     <string name="reporte3">Reporte 3</string>
+    <string name="mostrarReporte">Mostrar reporte</string>
     <string-array name="reportes">
         <item>@string/reporte1</item>
         <item>@string/reporte2</item>

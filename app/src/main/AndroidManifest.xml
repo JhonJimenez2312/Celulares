@@ -19,6 +19,9 @@
         <activity android:name=".CrearCelulares" />
         <activity android:name=".ListarCelulares"></activity>
         <activity android:name=".Reportes"></activity>
+        <activity android:name=".ReporteUno"></activity>
+        <activity android:name=".ReporteDos"></activity>
+        <activity android:name=".ReporteTres"></activity>
     </application>
 
 </manifest>
